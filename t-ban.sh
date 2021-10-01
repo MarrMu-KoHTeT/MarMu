@@ -7,14 +7,14 @@
 #
 #
 clear
-figlet -f big Termux Banner | lolcat
+figlet -f big Termux Name | lolcat
 cyan='\e[0;36m'
 lightgreen='\e[1;32m'
 red='\e[1;31m'
 yellow='\e[1;33m'
 echo -e $lightgreen "\e[1m                Who is MarMu "
 echo " "
-echo -e $yellow "\e[1m                         -MarMu "
+echo -e $yellow "\e[1m                - Do u love Myanmar "
 echo " "
 echo " "
 echo " "
