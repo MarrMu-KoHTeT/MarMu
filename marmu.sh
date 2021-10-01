@@ -20,12 +20,12 @@ pkg install figlet -y
 gem install lolcat
 
 cd $HOME
-cd Myanmar-Banner
+cd MarMu
 
 echo
 clear
-figlet Theme | lolcat
-figlet MYANMAR | lolcat
+figlet We Love | lolcat
+figlet -f big MYANMAR | lolcat
 
 echo -e ""
 echo -e $GR " Enter Your Name : "
@@ -43,7 +43,7 @@ touch bash.bashrc
 cp bash.bashrc /data/data/com.termux/files/usr/etc/
 echo -e $RD"Enter Tool Password"
 read pass
-if [ $pass -eq MarMu ]
+if [ $pass -eq marmu ]
 then
         cat "clear.txt" >>/data/data/com.termux/files/usr/etc/bash.bashrc
 
