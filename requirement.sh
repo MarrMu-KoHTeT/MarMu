@@ -2,7 +2,7 @@
 
 clear
 apt update
-apt upgrade
+apt upgrade -y
 apt install figlet -y
 figlet Basic Installation
 apt install toilet -y
