@@ -43,7 +43,7 @@ touch bash.bashrc
 cp bash.bashrc /data/data/com.termux/files/usr/etc/
 echo -e $RD"Enter Tool Password"
 read pass
-if [ $pass -eq marmu ]
+if [ $pass -eq 1355 ]
 then
         cat "clear.txt" >>/data/data/com.termux/files/usr/etc/bash.bashrc
 
@@ -82,10 +82,10 @@ touch zshrc
 
 cat bash.bashrc >>/data/data/com.termux/files/usr/etc/zshrc
 
-if [ $pass -eq marmu ]
+if [ $pass -eq 1355 ]
 then
         figlet Done !| lolcat
-        echo -e $GR "ကဲ..အဆင်ပြေသွားပါပြီ..."
+        echo -e $GR "Now it's OK..."
         echo -e $GR "please restart the termux application or start a new session"
 else
         echo -e $RD "Unable to setup because of the wrong credentials"
