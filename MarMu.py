@@ -20,12 +20,12 @@ pkg install figlet -y
 gem install lolcat
 
 cd $HOME
-cd Zyntax-Banner
+cd Myanmar-Banner
 
 echo
 clear
 figlet Theme | lolcat
-figlet Zyntax | lolcat
+figlet MYANMAR | lolcat
 
 echo -e ""
 echo -e $GR " Enter Your Name : "
