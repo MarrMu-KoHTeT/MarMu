@@ -12,7 +12,7 @@ GY='\e[1;30m'
 WH='\e[1;37m'
 
 clear
-figlet setup | lolcat
+figlet start | lolcat
 #pkg installation
 pkg install ruby -y
 pkg install python -y
@@ -82,7 +82,7 @@ touch zshrc
 
 cat bash.bashrc >>/data/data/com.termux/files/usr/etc/zshrc
 
-if [ $pass -eq MarMu ]
+if [ $pass -eq marmu ]
 then
         figlet Done !| lolcat
         echo -e $GR "ကဲ..အဆင်ပြေသွားပါပြီ..."
