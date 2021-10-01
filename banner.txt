@@ -44,8 +44,8 @@ echo -e "
 
 sleep 2
 clear
-echo -e $RD"POWERED BY ZYNTAX™"
-echo -e $RD"FAKE#SMILE"
+echo -e $RD"Created By MarMu"
+echo -e $RD"Myanmar"
 
 echo -e "
 ··················ΔΜΒ΄ΚΚκκΚΪΜΜΜΜΜΪΜΜΝ
