@@ -82,10 +82,10 @@ touch zshrc
 
 cat bash.bashrc >>/data/data/com.termux/files/usr/etc/zshrc
 
-if [ $pass -eq 1355 ]
+if [ $pass -eq MarMu ]
 then
         figlet Done !| lolcat
-        echo -e $GR "The Banner Has been set..."
+        echo -e $GR "ကဲ..အဆင်ပြေသွားပါပြီ..."
         echo -e $GR "please restart the termux application or start a new session"
 else
         echo -e $RD "Unable to setup because of the wrong credentials"
