@@ -14,4 +14,4 @@ figlet -f big Good !!! | lolcat
 echo
 echo -e "\e[1m Now Run t-ban.sh or marmu.py ...!!!"
 echo
-echo -e "\e[1m\e[32m Developed by :\e[33m Koushik Pal (KP)"
+echo -e "\e[1m\e[32m Developed by :\e[33m MarMu (Myanmar)"
