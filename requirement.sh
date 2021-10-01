@@ -10,8 +10,8 @@ apt install cowsay -y
 apt install nano -y
 apt install ruby -y
 gem install lolcat
-figlet -f big Good !!! | lolcat
+figlet -f big Good Job!!! | lolcat
 echo
-echo -e "\e[1m Now Run t-ban.sh or marmu.py ...!!!"
+echo -e "\e[1m Now Run 👉 my-banner.sh ...!!!"
 echo
-echo -e "\e[1m\e[32m Developed by :\e[33m MarMu (Myanmar)"
+echo -e "\e[1m\e[32m Creation by :\e[33m MarMu (Myanmar)"
