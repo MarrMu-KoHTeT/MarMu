@@ -19,7 +19,7 @@ echo " "
 echo " "
 echo " "
 echo -e "\e[1m\e[33m\nWhat is Your \e[31mBanner \e[33mName\e[32m :\n\n"
-read varbanner
+read           varbanner
 echo
 echo -e "\e[1m\e[33m\nWhat is Your Cowsay Name\e[32m :\n\n "
 read varcowsay
