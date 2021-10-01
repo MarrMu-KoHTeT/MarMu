@@ -43,7 +43,7 @@ touch bash.bashrc
 cp bash.bashrc /data/data/com.termux/files/usr/etc/
 echo -e $RD"Enter Tool Password"
 read pass
-if [ $pass -eq 1355 ]
+if [ $pass -eq 1234 ]
 then
         cat "clear.txt" >>/data/data/com.termux/files/usr/etc/bash.bashrc
 
@@ -59,6 +59,8 @@ then
         bash install
         termux-style
         termux-style
+        C
+        5
         echo -e $GR "The Colour Themes Have Been Set.."
 
 else
@@ -82,7 +84,7 @@ touch zshrc
 
 cat bash.bashrc >>/data/data/com.termux/files/usr/etc/zshrc
 
-if [ $pass -eq 1355 ]
+if [ $pass -eq 1234 ]
 then
         figlet Done !| lolcat
         echo -e $GR "Now it's OK..."
