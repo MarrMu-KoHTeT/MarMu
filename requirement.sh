@@ -1,6 +1,8 @@
 #!/bin/bash
 
 clear
+echo 
+echo -e "\e[1m Credit 🎭 T-Ban & Termux Style tools..!!!"
 apt update
 apt upgrade -y
 apt install figlet -y
