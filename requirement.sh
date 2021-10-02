@@ -12,6 +12,6 @@ apt install ruby -y
 gem install lolcat
 figlet -f big Good Job!!! | lolcat
 echo
-echo -e "\e[1m Now Run 👉 my-banner.sh ...!!!"
+echo -e "\e[1m Now Run 👉 my-banner.sh (OR) marmu.sh..!!!"
 echo
 echo -e "\e[1m\e[32m Creation by :\e[33m MarMu (Myanmar)"
