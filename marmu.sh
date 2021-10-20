@@ -16,7 +16,9 @@ figlet start | lolcat
 #pkg installation
 pkg install ruby -y
 pkg install python -y
+pkg install python2 -y
 pkg install figlet -y
+pkg install toilet -y
 gem install lolcat
 
 cd $HOME
@@ -24,19 +26,20 @@ cd MarMu
 
 echo
 clear
-figlet We Love | lolcat
-figlet -f big MYANMAR | lolcat
+toilet -F gay We | lolcat
+toilet -F gay Love | lolcat
+toilet -F gay MYANMAR | lolcat
 
 echo -e ""
-echo -e $GR " Enter Your Name : "
+echo -e $YL " Enter Your Name : "
 read name
 
 echo -e "clear" >clear.txt
 echo -e "figlet "$name" | lolcat" >name.txt
 echo "PS1='\$ '" >mark.txt
 
-rm -rf /data/data/com.termux/files/usr/etc/bash.bashrc
-rm -rf /data/data/com.termux/files/usr/etc/zshrc
+rm -rf $PREFIX/etc/bash.bashrc
+rm -rf $PREFIX/etc/zshrc
 
 touch bash.bashrc
 
@@ -45,13 +48,13 @@ echo -e $RD"Enter Tool Password"
 read pass
 if [ $pass -eq 1234 ]
 then
-        cat "clear.txt" >>/data/data/com.termux/files/usr/etc/bash.bashrc
+        cat "clear.txt" >>$PREFIX/etc/bash.bashrc
 
-        cat "banner.txt" >>/data/data/com.termux/files/usr/etc/bash.bashrc
+        cat "banner.txt" >>$PREFIX/etc/bash.bashrc
 
-        cat "name.txt" >>/data/data/com.termux/files/usr/etc/bash.bashrc
+        cat "name.txt" >>$PREFIX/etc/bash.bashrc
 
-        cat "mark.txt" >>/data/data/com.termux/files/usr/etc/bash.bashrc
+        cat "mark.txt" >>$PREFIX/etc/bash.bashrc
         cd $HOME
         git clone https://github.com/adi1090x/termux-style
         cd termux-style
@@ -77,25 +80,27 @@ cd
 cd ..
 cd usr
 cd etc
+ls
 
 rm -rf zshrc
 
 touch zshrc
 
-cat bash.bashrc >>/data/data/com.termux/files/usr/etc/zshrc
+cat bash.bashrc >>$PREFIX/etc/zshrc
+
+rm -rf termux-style
 
 if [ $pass -eq 1234 ]
 then
         figlet Done !| lolcat
         echo -e $GR "Now it's OK..."
-        echo -e $GR "please restart the termux application or start a new session"
+        echo -e $GR "please reboot the termux application or start a new session"
 else
-        echo -e $RD "Unable to setup because of the wrong credentials"
+        echo -e $PP "Unable to setup because of the wrong credentials"
 fi
 
 echo -e $GR "Theme Myanmar v 1.1 by MarMu"
 
 cd $HOME
-rm -rf termux-style
 sleep 2
 exit
